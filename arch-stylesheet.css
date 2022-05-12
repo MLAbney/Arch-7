@@ -1,0 +1,92 @@
+* {background-color: lightgrey;
+}
+h1{
+  font-weight: bold;
+  font-family: Arial;
+  font-size: 40px;
+}
+h2{
+  font-weight: bold;
+  font-family: Arial;
+  font-size: 24px;
+}
+h3{
+  font-weight: bold;
+  font-family: Arial;
+  font-size: 17px;
+}
+p{
+  font-style: normal;
+  font-family: Arial;
+  font-size: 17px;
+}
+.columns{
+  margin: 1rem auto;
+  width: min(100%, 100rem);
+  display: grid;
+  grid-auto-flow: row;
+  gap: 0.5em;
+}
+a:hover {
+  background-color: #03a3df;
+  padding: 5px;
+}
+.Instructor{
+  margin: 1rem auto;
+  width: min(100%, 100rem);
+  display: grid;
+  grid-auto-flow: row;
+  gap: 0.5em;
+}
+Footer{
+  font-weight: bold;
+  font-family: Arial;
+  font-size: 17px;
+}
+.First{
+  color: #03a3df;
+}
+.Second{
+  color: #03a3df;
+}
+.Third{
+  color: #03a3df;
+}
+.Meet{
+  color: #03a3df;
+}
+.Derek{
+  background-color: #03a3df;
+  padding: 5px;
+  border-style: outset;
+  border-color: #ecb722;
+}
+.Amy{
+  background-color: #03a3df;
+  padding: 5px;
+  border-style: outset;
+  border-color: #ecb722;
+}
+.Nathan{
+  background-color: #03a3df;
+  padding: 5px;
+  border-style: outset;
+  border-color: #ecb722;
+}
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-left: 11%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: none;
+    display: flex;
+    color: rgb(55, 55, 55);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    justify-content: space-between;
+    }
